@@ -1,0 +1,129 @@
+Format: 1.8
+Date: Thu, 18 Oct 2018 19:45:43 +0200
+Source: ncurses
+Binary: libtinfo6 libtinfo6-udeb libncurses6 libncurses-dev libtinfo-dev libtinfo6-dbg libncurses5-dev libncurses6-dbg libncursesw6 libncursesw5-dev libncursesw6-dbg lib64tinfo6 lib64ncurses6 lib64ncursesw6 lib64ncurses-dev lib32tinfo6 lib32ncurses6 lib32ncursesw6 lib32ncurses-dev ncurses-bin ncurses-base ncurses-term ncurses-examples ncurses-doc libtinfo5 libncurses5 libncursesw5
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64 all
+Version: 6.1+20181013-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Craig Small <csmall@debian.org>
+Changed-By: Sven Joachim <svenjoac@gmx.de>
+Description:
+ lib32ncurses-dev - developer's libraries for ncurses (32-bit)
+ lib32ncurses6 - shared libraries for terminal handling (32-bit)
+ lib32ncursesw6 - shared libraries for terminal handling (wide character support) (
+ lib32tinfo6 - shared low-level terminfo library for terminal handling (32-bit)
+ lib64ncurses-dev - developer's libraries for ncurses (64-bit)
+ lib64ncurses6 - shared libraries for terminal handling (64-bit)
+ lib64ncursesw6 - shared libraries for terminal handling (wide character support) (
+ lib64tinfo6 - shared low-level terminfo library for terminal handling (64-bit)
+ libncurses-dev - developer's libraries for ncurses
+ libncurses5 - shared libraries for terminal handling (legacy version)
+ libncurses5-dev - transitional package for libncurses-dev
+ libncurses6 - shared libraries for terminal handling
+ libncurses6-dbg - debugging/profiling libraries for ncurses
+ libncursesw5 - shared libraries for terminal handling (wide character legacy ver
+ libncursesw5-dev - transitional package for libncurses-dev
+ libncursesw6 - shared libraries for terminal handling (wide character support)
+ libncursesw6-dbg - debugging/profiling libraries for ncursesw
+ libtinfo-dev - transitional package for libncurses-dev
+ libtinfo5  - shared low-level terminfo library (legacy version)
+ libtinfo6  - shared low-level terminfo library for terminal handling
+ libtinfo6-dbg - debugging/profiling library for the low-level terminfo library
+ libtinfo6-udeb - shared low-level terminfo library for terminal handling - udeb (udeb)
+ ncurses-base - basic terminal type definitions
+ ncurses-bin - terminal-related programs and man pages
+ ncurses-doc - developer's guide and documentation for ncurses
+ ncurses-examples - test programs and examples for ncurses
+ ncurses-term - additional terminal type definitions
+Closes: 903790 904337
+Changes:
+ ncurses (6.1+20181013-1) unstable; urgency=medium
+ .
+   * New upstream patchlevel.
+     - Modify configure scripts to reduce relinking/ranlib during library
+       install.  Together with the next change, this Closes: #903790.
+   * Configure with --disable-relink.
+   * Fix wrong-path-for-interpreter lintian error in ncurses-examples.
+   * Add Breaks against libunibilium4 (<< 2.0.0-3) to ncurses-base and
+     ncurses-term (Closes: #904337).
+   * Upgrade Standards-Version to 4.2.1, no further changes needed.
+Checksums-Sha1:
+ ead23e19531b9599f9585802247f690856ed23fc 6883588 libncurses-dev_6.1+20181013-1_amd64.deb
+ a9311475525e4d1793d1f57608d9370656eefc74 382548 libncurses5-dbgsym_6.1+20181013-1_amd64.deb
+ 56c80bfbe883f7cba5deed47cdcdf88b9c4efbdb 944 libncurses5-dev_6.1+20181013-1_amd64.deb
+ 3e5599627a40dca4d1e30f3a05d72e6329e35c80 318068 libncurses5_6.1+20181013-1_amd64.deb
+ dcf2fa0f7bb2136b1c75f93f55e95de3a7e4e920 428588 libncurses6-dbg_6.1+20181013-1_amd64.deb
+ aa5eb59514c61022993d0a0e84dfe05fd1d89242 317872 libncurses6_6.1+20181013-1_amd64.deb
+ bc8c39c59dfc583ff12f58f5ddb77c23a49696d6 522988 libncursesw5-dbgsym_6.1+20181013-1_amd64.deb
+ e820adadb1f1677a0d75c5a6bf4b533c080a399d 944 libncursesw5-dev_6.1+20181013-1_amd64.deb
+ 57a4323987fb856ebfdcc5a8e2b3c04704b0a36c 412188 libncursesw5_6.1+20181013-1_amd64.deb
+ 25478fde103685a28c01e7080a9fb8faeb144af1 592312 libncursesw6-dbg_6.1+20181013-1_amd64.deb
+ 744af3c2eca8045aea7aea41e103e9a8afe4fdb3 439988 libncursesw6_6.1+20181013-1_amd64.deb
+ bec7579b27f53a0a4b1e3209ead9fa79bb3b84a3 932 libtinfo-dev_6.1+20181013-1_amd64.deb
+ 44c6939bf661c50950fda58b9cbc9c6971bec083 165188 libtinfo5-dbgsym_6.1+20181013-1_amd64.deb
+ 2ed36fb2505759ea1a32449047ebf20c2be830f2 395116 libtinfo5_6.1+20181013-1_amd64.deb
+ 54d13b85dc16e49388af80552df18d2bbeaed4d5 190612 libtinfo6-dbg_6.1+20181013-1_amd64.deb
+ 3c8dd739fbed4c199c2f25717cb409fc5387d613 114892 libtinfo6-udeb_6.1+20181013-1_amd64.udeb
+ ac6aa5dad87f06124e51cc913309928116441070 408884 libtinfo6_6.1+20181013-1_amd64.deb
+ 0f59cdad3e0289685a7cb70557e9858a08b31ea9 258052 ncurses-base_6.1+20181013-1_all.deb
+ 6f3572f7e897e2652464ad58b30624948bfcc86d 119888 ncurses-bin-dbgsym_6.1+20181013-1_amd64.deb
+ 1e00f07ea8c569004dd402189d43341bd2f08b72 465296 ncurses-bin_6.1+20181013-1_amd64.deb
+ 7dad1e2e80677ca76fdc6992958b3313bfbac60f 547344 ncurses-doc_6.1+20181013-1_all.deb
+ 02b0463a57647285c47d754ea921e0403046065d 506204 ncurses-examples-dbgsym_6.1+20181013-1_amd64.deb
+ 5fb41f5dad320d264b53b7c846c6385ebee53817 716456 ncurses-examples_6.1+20181013-1_amd64.deb
+ 7387d6540c7973ef608b219f0d48490e1c30c4e1 489504 ncurses-term_6.1+20181013-1_all.deb
+ dc06805d3b753a89a155c437032265deaeeafa82 12264 ncurses_6.1+20181013-1_amd64.buildinfo
+Checksums-Sha256:
+ 4cc79e8b9f9e7534da465002d14bd1fd56e9b0b449f1c874cadc578b005019f2 6883588 libncurses-dev_6.1+20181013-1_amd64.deb
+ e3616cb7a7d16c613002fbc51d0fd23a4e8b3b8dcfec6b89f9442d49a0667306 382548 libncurses5-dbgsym_6.1+20181013-1_amd64.deb
+ 920502de339937f0ec5ad7f3996f3568ab8d89b7eeb856b516e4345bd2afc9ff 944 libncurses5-dev_6.1+20181013-1_amd64.deb
+ 18f60adbd9bcdefa2f178f47db83098cd432835999ed8e7919051db404347af5 318068 libncurses5_6.1+20181013-1_amd64.deb
+ 9e7ccb240ae69dabf74dca3fb32a5fa5ebe29346412100e5f3207e3525d2a0ce 428588 libncurses6-dbg_6.1+20181013-1_amd64.deb
+ 4caf497384bd3136cd64e6b3971fecb8c4b7ab30d464489b11e8b2f4c984b62e 317872 libncurses6_6.1+20181013-1_amd64.deb
+ 9f98e3e010354885b5da5d5e7203102b0a450545e9cb1d66a12e173e4e1e3f4d 522988 libncursesw5-dbgsym_6.1+20181013-1_amd64.deb
+ 455f0b08429197f7d883b14a09c81d5edbfd9bed3a7f0d9bf32b6dd664c4c4ab 944 libncursesw5-dev_6.1+20181013-1_amd64.deb
+ f8b3893c9eb1ab38c7dbc298bc1b2cb8d24839d1d7eb4caef72dd9013b75a34e 412188 libncursesw5_6.1+20181013-1_amd64.deb
+ 06c68c6e3f3fa22bb3c5b49b7642a944a886f81cc9cd1b2a5d38432320c10b89 592312 libncursesw6-dbg_6.1+20181013-1_amd64.deb
+ 0fa74814763b03b579b13a9e65f092808064ed31b2e25edf1fbbaeaac016892a 439988 libncursesw6_6.1+20181013-1_amd64.deb
+ 84efec134b32c8e7a3d646b877dc7b4d29c57a99e2fc534c356b064b15e05b78 932 libtinfo-dev_6.1+20181013-1_amd64.deb
+ 9448fe0d30b48c7f7c72fdf5956f115ac39e086f7a44840ba808161d0b0a9ff0 165188 libtinfo5-dbgsym_6.1+20181013-1_amd64.deb
+ 72a7a1585ba1bf3fe4f1b9ac8fc315c43bc9dc7c1cad129d43b956d7146d7f2d 395116 libtinfo5_6.1+20181013-1_amd64.deb
+ 0dd7b0b4e90b9c4b8459298ddb790cf9b7955236c5d9594dd4854d8c744ac1bc 190612 libtinfo6-dbg_6.1+20181013-1_amd64.deb
+ a7dab1ab3504619d36cb228e5cb007703b70cb6bc5c13f20a1828eca4c1395b6 114892 libtinfo6-udeb_6.1+20181013-1_amd64.udeb
+ 86b359f9a2f2e15e596ec7dbd3a1fdef8f3c05e3e615fbfe7c09334b910ce89e 408884 libtinfo6_6.1+20181013-1_amd64.deb
+ 45a1e69854072728a1a858c6c0ad94dc0e6c5d8940301d01828cceffb8dd77a4 258052 ncurses-base_6.1+20181013-1_all.deb
+ 709a5dd33ea66fefe87f7a14d1e79e1217073e8d4b54079335e0ed1d6adc6151 119888 ncurses-bin-dbgsym_6.1+20181013-1_amd64.deb
+ 60fe540948fcefd69b90b08445928638b79b4b4d332992c9b4d1e0224674d9ea 465296 ncurses-bin_6.1+20181013-1_amd64.deb
+ 3e0080973e650c3ded7200a4980b66529f9783bf9ebe212b88d0c8ab8c0b5617 547344 ncurses-doc_6.1+20181013-1_all.deb
+ fbb7f7dc97919e2b2e5845e3e8d83a31bfd439ba1ad9939081c1f1832868d329 506204 ncurses-examples-dbgsym_6.1+20181013-1_amd64.deb
+ cfaf9baf47cd089bf82fb41fa97988ef86f4973d6fbc35a0e7bc1838f2fbb66b 716456 ncurses-examples_6.1+20181013-1_amd64.deb
+ 79797d11b2ed536c6792b735c4429bb633d2842a5f273e59de920dcd7378bfe5 489504 ncurses-term_6.1+20181013-1_all.deb
+ ddd49be819115adcc6b30d7b07671bafa376b746946a281275063e781887510b 12264 ncurses_6.1+20181013-1_amd64.buildinfo
+Files:
+ c41d4a3514d13a56515d3bef4227be08 6883588 libdevel optional libncurses-dev_6.1+20181013-1_amd64.deb
+ 3dcacd136854e119c04b9b7a927cfb09 382548 debug optional libncurses5-dbgsym_6.1+20181013-1_amd64.deb
+ 5253ea216dc3dfc27efc19be5ab0ccc5 944 oldlibs optional libncurses5-dev_6.1+20181013-1_amd64.deb
+ 71e4da8393d29c97eab735d1b6e94e65 318068 oldlibs optional libncurses5_6.1+20181013-1_amd64.deb
+ ff042cb0dde069b5988fa0544c1352ed 428588 debug optional libncurses6-dbg_6.1+20181013-1_amd64.deb
+ 7cc901733562fc77bf465fd6a4d0315b 317872 libs optional libncurses6_6.1+20181013-1_amd64.deb
+ c64fc6c26e608e22e6b81bb291fe7258 522988 debug optional libncursesw5-dbgsym_6.1+20181013-1_amd64.deb
+ 46c6af47b5c531289bcc21980a31e082 944 oldlibs optional libncursesw5-dev_6.1+20181013-1_amd64.deb
+ 395c181115c30321c9e3d6969bb1b0f9 412188 oldlibs optional libncursesw5_6.1+20181013-1_amd64.deb
+ fe9a10e9644dae21ec0f437bf0335c80 592312 debug optional libncursesw6-dbg_6.1+20181013-1_amd64.deb
+ 9f512dd4dba54612d8632e7d11816778 439988 libs optional libncursesw6_6.1+20181013-1_amd64.deb
+ 620a3bf0f93a569a529edeae245da8a4 932 oldlibs optional libtinfo-dev_6.1+20181013-1_amd64.deb
+ c686bbe26b681bf7fee8f6652e4d61ed 165188 debug optional libtinfo5-dbgsym_6.1+20181013-1_amd64.deb
+ 4d33e09be9659e79cfc7e57f8a46570d 395116 oldlibs optional libtinfo5_6.1+20181013-1_amd64.deb
+ d5b96270f9cdba83fb233a64c2dd2991 190612 debug optional libtinfo6-dbg_6.1+20181013-1_amd64.deb
+ aaa4850ffeb347d072d4724287bdead3 114892 debian-installer optional libtinfo6-udeb_6.1+20181013-1_amd64.udeb
+ 4b6964e47c9645f0d8e6fbe2b2419154 408884 libs optional libtinfo6_6.1+20181013-1_amd64.deb
+ e61ddd94a6a92af13b7c208f96e1dd0a 258052 misc required ncurses-base_6.1+20181013-1_all.deb
+ ec4777fe1d95a4d1862b69758b252bab 119888 debug optional ncurses-bin-dbgsym_6.1+20181013-1_amd64.deb
+ d66c724970908be8ec8aff6a705e20f3 465296 utils required ncurses-bin_6.1+20181013-1_amd64.deb
+ 699ee4925c852aa22057b035e04ca345 547344 doc optional ncurses-doc_6.1+20181013-1_all.deb
+ 9a205989d3b22e1178ef657019ade753 506204 debug optional ncurses-examples-dbgsym_6.1+20181013-1_amd64.deb
+ 08ebdf1fac30c991c00a8d422c4b72c0 716456 misc optional ncurses-examples_6.1+20181013-1_amd64.deb
+ 35a8d30f211574050d8f6753cbf0d3de 489504 misc standard ncurses-term_6.1+20181013-1_all.deb
+ eb154efaa88019d8eda873668d03c4b0 12264 libs required ncurses_6.1+20181013-1_amd64.buildinfo

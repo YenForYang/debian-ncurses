@@ -1,0 +1,252 @@
+Format: 1.0
+Source: ncurses
+Binary: libtinfo6 libtinfo6-udeb libncurses6 libncurses-dev libtinfo-dev libtinfo6-dbg libncurses5-dev libncurses6-dbg libncursesw6 libncursesw5-dev libncursesw6-dbg lib64tinfo6 lib64ncurses6 lib64ncursesw6 lib64ncurses-dev lib32tinfo6 lib32ncurses6 lib32ncursesw6 lib32ncurses-dev ncurses-bin ncurses-base ncurses-term ncurses-examples ncurses-doc libtinfo5 libncurses5 libncursesw5
+Architecture: all amd64
+Version: 6.1+20181013-1
+Checksums-Md5:
+ c41d4a3514d13a56515d3bef4227be08 6883588 libncurses-dev_6.1+20181013-1_amd64.deb
+ 3dcacd136854e119c04b9b7a927cfb09 382548 libncurses5-dbgsym_6.1+20181013-1_amd64.deb
+ 5253ea216dc3dfc27efc19be5ab0ccc5 944 libncurses5-dev_6.1+20181013-1_amd64.deb
+ 71e4da8393d29c97eab735d1b6e94e65 318068 libncurses5_6.1+20181013-1_amd64.deb
+ ff042cb0dde069b5988fa0544c1352ed 428588 libncurses6-dbg_6.1+20181013-1_amd64.deb
+ 7cc901733562fc77bf465fd6a4d0315b 317872 libncurses6_6.1+20181013-1_amd64.deb
+ c64fc6c26e608e22e6b81bb291fe7258 522988 libncursesw5-dbgsym_6.1+20181013-1_amd64.deb
+ 46c6af47b5c531289bcc21980a31e082 944 libncursesw5-dev_6.1+20181013-1_amd64.deb
+ 395c181115c30321c9e3d6969bb1b0f9 412188 libncursesw5_6.1+20181013-1_amd64.deb
+ fe9a10e9644dae21ec0f437bf0335c80 592312 libncursesw6-dbg_6.1+20181013-1_amd64.deb
+ 9f512dd4dba54612d8632e7d11816778 439988 libncursesw6_6.1+20181013-1_amd64.deb
+ 620a3bf0f93a569a529edeae245da8a4 932 libtinfo-dev_6.1+20181013-1_amd64.deb
+ c686bbe26b681bf7fee8f6652e4d61ed 165188 libtinfo5-dbgsym_6.1+20181013-1_amd64.deb
+ 4d33e09be9659e79cfc7e57f8a46570d 395116 libtinfo5_6.1+20181013-1_amd64.deb
+ d5b96270f9cdba83fb233a64c2dd2991 190612 libtinfo6-dbg_6.1+20181013-1_amd64.deb
+ aaa4850ffeb347d072d4724287bdead3 114892 libtinfo6-udeb_6.1+20181013-1_amd64.udeb
+ 4b6964e47c9645f0d8e6fbe2b2419154 408884 libtinfo6_6.1+20181013-1_amd64.deb
+ e61ddd94a6a92af13b7c208f96e1dd0a 258052 ncurses-base_6.1+20181013-1_all.deb
+ ec4777fe1d95a4d1862b69758b252bab 119888 ncurses-bin-dbgsym_6.1+20181013-1_amd64.deb
+ d66c724970908be8ec8aff6a705e20f3 465296 ncurses-bin_6.1+20181013-1_amd64.deb
+ 699ee4925c852aa22057b035e04ca345 547344 ncurses-doc_6.1+20181013-1_all.deb
+ 9a205989d3b22e1178ef657019ade753 506204 ncurses-examples-dbgsym_6.1+20181013-1_amd64.deb
+ 08ebdf1fac30c991c00a8d422c4b72c0 716456 ncurses-examples_6.1+20181013-1_amd64.deb
+ 35a8d30f211574050d8f6753cbf0d3de 489504 ncurses-term_6.1+20181013-1_all.deb
+Checksums-Sha1:
+ ead23e19531b9599f9585802247f690856ed23fc 6883588 libncurses-dev_6.1+20181013-1_amd64.deb
+ a9311475525e4d1793d1f57608d9370656eefc74 382548 libncurses5-dbgsym_6.1+20181013-1_amd64.deb
+ 56c80bfbe883f7cba5deed47cdcdf88b9c4efbdb 944 libncurses5-dev_6.1+20181013-1_amd64.deb
+ 3e5599627a40dca4d1e30f3a05d72e6329e35c80 318068 libncurses5_6.1+20181013-1_amd64.deb
+ dcf2fa0f7bb2136b1c75f93f55e95de3a7e4e920 428588 libncurses6-dbg_6.1+20181013-1_amd64.deb
+ aa5eb59514c61022993d0a0e84dfe05fd1d89242 317872 libncurses6_6.1+20181013-1_amd64.deb
+ bc8c39c59dfc583ff12f58f5ddb77c23a49696d6 522988 libncursesw5-dbgsym_6.1+20181013-1_amd64.deb
+ e820adadb1f1677a0d75c5a6bf4b533c080a399d 944 libncursesw5-dev_6.1+20181013-1_amd64.deb
+ 57a4323987fb856ebfdcc5a8e2b3c04704b0a36c 412188 libncursesw5_6.1+20181013-1_amd64.deb
+ 25478fde103685a28c01e7080a9fb8faeb144af1 592312 libncursesw6-dbg_6.1+20181013-1_amd64.deb
+ 744af3c2eca8045aea7aea41e103e9a8afe4fdb3 439988 libncursesw6_6.1+20181013-1_amd64.deb
+ bec7579b27f53a0a4b1e3209ead9fa79bb3b84a3 932 libtinfo-dev_6.1+20181013-1_amd64.deb
+ 44c6939bf661c50950fda58b9cbc9c6971bec083 165188 libtinfo5-dbgsym_6.1+20181013-1_amd64.deb
+ 2ed36fb2505759ea1a32449047ebf20c2be830f2 395116 libtinfo5_6.1+20181013-1_amd64.deb
+ 54d13b85dc16e49388af80552df18d2bbeaed4d5 190612 libtinfo6-dbg_6.1+20181013-1_amd64.deb
+ 3c8dd739fbed4c199c2f25717cb409fc5387d613 114892 libtinfo6-udeb_6.1+20181013-1_amd64.udeb
+ ac6aa5dad87f06124e51cc913309928116441070 408884 libtinfo6_6.1+20181013-1_amd64.deb
+ 0f59cdad3e0289685a7cb70557e9858a08b31ea9 258052 ncurses-base_6.1+20181013-1_all.deb
+ 6f3572f7e897e2652464ad58b30624948bfcc86d 119888 ncurses-bin-dbgsym_6.1+20181013-1_amd64.deb
+ 1e00f07ea8c569004dd402189d43341bd2f08b72 465296 ncurses-bin_6.1+20181013-1_amd64.deb
+ 7dad1e2e80677ca76fdc6992958b3313bfbac60f 547344 ncurses-doc_6.1+20181013-1_all.deb
+ 02b0463a57647285c47d754ea921e0403046065d 506204 ncurses-examples-dbgsym_6.1+20181013-1_amd64.deb
+ 5fb41f5dad320d264b53b7c846c6385ebee53817 716456 ncurses-examples_6.1+20181013-1_amd64.deb
+ 7387d6540c7973ef608b219f0d48490e1c30c4e1 489504 ncurses-term_6.1+20181013-1_all.deb
+Checksums-Sha256:
+ 4cc79e8b9f9e7534da465002d14bd1fd56e9b0b449f1c874cadc578b005019f2 6883588 libncurses-dev_6.1+20181013-1_amd64.deb
+ e3616cb7a7d16c613002fbc51d0fd23a4e8b3b8dcfec6b89f9442d49a0667306 382548 libncurses5-dbgsym_6.1+20181013-1_amd64.deb
+ 920502de339937f0ec5ad7f3996f3568ab8d89b7eeb856b516e4345bd2afc9ff 944 libncurses5-dev_6.1+20181013-1_amd64.deb
+ 18f60adbd9bcdefa2f178f47db83098cd432835999ed8e7919051db404347af5 318068 libncurses5_6.1+20181013-1_amd64.deb
+ 9e7ccb240ae69dabf74dca3fb32a5fa5ebe29346412100e5f3207e3525d2a0ce 428588 libncurses6-dbg_6.1+20181013-1_amd64.deb
+ 4caf497384bd3136cd64e6b3971fecb8c4b7ab30d464489b11e8b2f4c984b62e 317872 libncurses6_6.1+20181013-1_amd64.deb
+ 9f98e3e010354885b5da5d5e7203102b0a450545e9cb1d66a12e173e4e1e3f4d 522988 libncursesw5-dbgsym_6.1+20181013-1_amd64.deb
+ 455f0b08429197f7d883b14a09c81d5edbfd9bed3a7f0d9bf32b6dd664c4c4ab 944 libncursesw5-dev_6.1+20181013-1_amd64.deb
+ f8b3893c9eb1ab38c7dbc298bc1b2cb8d24839d1d7eb4caef72dd9013b75a34e 412188 libncursesw5_6.1+20181013-1_amd64.deb
+ 06c68c6e3f3fa22bb3c5b49b7642a944a886f81cc9cd1b2a5d38432320c10b89 592312 libncursesw6-dbg_6.1+20181013-1_amd64.deb
+ 0fa74814763b03b579b13a9e65f092808064ed31b2e25edf1fbbaeaac016892a 439988 libncursesw6_6.1+20181013-1_amd64.deb
+ 84efec134b32c8e7a3d646b877dc7b4d29c57a99e2fc534c356b064b15e05b78 932 libtinfo-dev_6.1+20181013-1_amd64.deb
+ 9448fe0d30b48c7f7c72fdf5956f115ac39e086f7a44840ba808161d0b0a9ff0 165188 libtinfo5-dbgsym_6.1+20181013-1_amd64.deb
+ 72a7a1585ba1bf3fe4f1b9ac8fc315c43bc9dc7c1cad129d43b956d7146d7f2d 395116 libtinfo5_6.1+20181013-1_amd64.deb
+ 0dd7b0b4e90b9c4b8459298ddb790cf9b7955236c5d9594dd4854d8c744ac1bc 190612 libtinfo6-dbg_6.1+20181013-1_amd64.deb
+ a7dab1ab3504619d36cb228e5cb007703b70cb6bc5c13f20a1828eca4c1395b6 114892 libtinfo6-udeb_6.1+20181013-1_amd64.udeb
+ 86b359f9a2f2e15e596ec7dbd3a1fdef8f3c05e3e615fbfe7c09334b910ce89e 408884 libtinfo6_6.1+20181013-1_amd64.deb
+ 45a1e69854072728a1a858c6c0ad94dc0e6c5d8940301d01828cceffb8dd77a4 258052 ncurses-base_6.1+20181013-1_all.deb
+ 709a5dd33ea66fefe87f7a14d1e79e1217073e8d4b54079335e0ed1d6adc6151 119888 ncurses-bin-dbgsym_6.1+20181013-1_amd64.deb
+ 60fe540948fcefd69b90b08445928638b79b4b4d332992c9b4d1e0224674d9ea 465296 ncurses-bin_6.1+20181013-1_amd64.deb
+ 3e0080973e650c3ded7200a4980b66529f9783bf9ebe212b88d0c8ab8c0b5617 547344 ncurses-doc_6.1+20181013-1_all.deb
+ fbb7f7dc97919e2b2e5845e3e8d83a31bfd439ba1ad9939081c1f1832868d329 506204 ncurses-examples-dbgsym_6.1+20181013-1_amd64.deb
+ cfaf9baf47cd089bf82fb41fa97988ef86f4973d6fbc35a0e7bc1838f2fbb66b 716456 ncurses-examples_6.1+20181013-1_amd64.deb
+ 79797d11b2ed536c6792b735c4429bb633d2842a5f273e59de920dcd7378bfe5 489504 ncurses-term_6.1+20181013-1_all.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Sat, 22 Dec 2018 14:37:29 +0100
+Installed-Build-Depends:
+ autoconf (= 2.69-11),
+ autoconf-dickey (= 2.52+20181006-1),
+ automake (= 1:1.16.1-4),
+ autopoint (= 0.19.8.1-2),
+ autotools-dev (= 20180224.1),
+ base-files (= 10.1),
+ base-passwd (= 3.5.45),
+ bash (= 4.4.18-3.1),
+ binutils (= 2.31.1-10),
+ binutils-common (= 2.31.1-10),
+ binutils-x86-64-linux-gnu (= 2.31.1-10),
+ bsdmainutils (= 11.1.2+b1),
+ bsdutils (= 1:2.32.1-0.1),
+ build-essential (= 12.5),
+ bzip2 (= 1.0.6-9),
+ coreutils (= 8.30-1),
+ cpp (= 4:8.2.0-2),
+ cpp-7 (= 7.3.0-30),
+ cpp-8 (= 8.2.0-9),
+ dash (= 0.5.10.2-2),
+ debconf (= 1.5.69),
+ debhelper (= 11.5.4),
+ debianutils (= 4.8.6),
+ dh-autoreconf (= 19),
+ dh-strip-nondeterminism (= 0.45.0-1),
+ diffutils (= 1:3.6-1),
+ dpkg (= 1.19.2),
+ dpkg-dev (= 1.19.2),
+ dwz (= 0.12-2),
+ fdisk (= 2.32.1-0.1),
+ file (= 1:5.35-1),
+ findutils (= 4.6.0+git+20181018-1),
+ g++ (= 4:8.2.0-2),
+ g++-8 (= 8.2.0-9),
+ gawk (= 1:4.2.1+dfsg-1),
+ gcc (= 4:8.2.0-2),
+ gcc-7 (= 7.3.0-30),
+ gcc-7-base (= 7.3.0-30),
+ gcc-8 (= 8.2.0-9),
+ gcc-8-base (= 8.2.0-9),
+ gettext (= 0.19.8.1-2),
+ gettext-base (= 0.19.8.1-2),
+ grep (= 3.1-2),
+ groff-base (= 1.22.3-10),
+ gzip (= 1.9-2.1),
+ hostname (= 3.21),
+ init-system-helpers (= 1.56),
+ install-info (= 6.5.0.dfsg.1-4),
+ intel-comp-ps-ss-bec-19.0.1-144 (= 19.0.1-144),
+ intltool-debian (= 0.35.0+20060710.4),
+ libacl1 (= 2.2.52-3+b1),
+ libarchive-zip-perl (= 1.64-1),
+ libasan4 (= 7.3.0-30),
+ libasan5 (= 8.2.0-9),
+ libatomic1 (= 8.2.0-9),
+ libattr1 (= 1:2.4.47-2+b2),
+ libaudit-common (= 1:2.8.4-3),
+ libaudit1 (= 1:2.8.4-3),
+ libbinutils (= 2.31.1-10),
+ libblkid1 (= 2.32.1-0.1),
+ libbsd0 (= 0.9.1-1),
+ libbz2-1.0 (= 1.0.6-9),
+ libc-bin (= 2.27-8),
+ libc-dev-bin (= 2.27-8),
+ libc6 (= 2.27-8),
+ libc6-dev (= 2.27-8),
+ libcap-ng0 (= 0.7.9-1),
+ libcc1-0 (= 8.2.0-9),
+ libcilkrts5 (= 7.3.0-30),
+ libcroco3 (= 0.6.12-2),
+ libdb5.3 (= 5.3.28+dfsg1-0.2),
+ libdebconfclient0 (= 0.245),
+ libdpkg-perl (= 1.19.2),
+ libelf1 (= 0.175-1),
+ libfdisk1 (= 2.32.1-0.1),
+ libffi6 (= 3.2.1-9),
+ libfile-stripnondeterminism-perl (= 0.45.0-1),
+ libgcc-7-dev (= 7.3.0-30),
+ libgcc-8-dev (= 8.2.0-9),
+ libgcc1 (= 1:8.2.0-9),
+ libgcrypt20 (= 1.8.4-3),
+ libgdbm-compat4 (= 1.18.1-2),
+ libgdbm6 (= 1.18.1-2),
+ libglib2.0-0 (= 2.58.1-2),
+ libgmp10 (= 2:6.1.2+dfsg-3),
+ libgomp1 (= 8.2.0-9),
+ libgpg-error0 (= 1.32-3),
+ libgpm-dev (= 1.20.7-6),
+ libgpm2 (= 1.20.7-6),
+ libicu63 (= 63.1-4),
+ libisl19 (= 0.20-2),
+ libitm1 (= 8.2.0-9),
+ liblsan0 (= 8.2.0-9),
+ liblz4-1 (= 1.8.2-1),
+ liblzma5 (= 5.2.4-1),
+ libmagic-mgc (= 1:5.35-1),
+ libmagic1 (= 1:5.35-1),
+ libmount1 (= 2.32.1-0.1),
+ libmpc3 (= 1.1.0-1),
+ libmpfr6 (= 4.0.1-1),
+ libmpx2 (= 8.2.0-9),
+ libncursesw6 (= 6.1+20181013-1),
+ libpam-modules (= 1.1.8-3.8),
+ libpam-modules-bin (= 1.1.8-3.8),
+ libpam-runtime (= 1.1.8-3.8),
+ libpam0g (= 1.1.8-3.8),
+ libpcre3 (= 2:8.39-11),
+ libperl5.28 (= 5.28.1-1),
+ libpipeline1 (= 1.5.0-2),
+ libquadmath0 (= 8.2.0-9),
+ libreadline7 (= 7.0-5),
+ libseccomp2 (= 2.3.3-4),
+ libselinux1 (= 2.8-1+b1),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.32.1-0.1),
+ libstdc++-8-dev (= 8.2.0-9),
+ libstdc++6 (= 8.2.0-9),
+ libsystemd0 (= 239-13),
+ libtinfo5 (= 6.1+20181013-1),
+ libtinfo6 (= 6.1+20181013-1),
+ libtool (= 2.4.6-6),
+ libtsan0 (= 8.2.0-9),
+ libubsan0 (= 7.3.0-30),
+ libubsan1 (= 8.2.0-9),
+ libudev1 (= 239-13),
+ libunistring0 (= 0.9.6+really0.9.3-0.1),
+ libuuid1 (= 2.32.1-0.1),
+ libxml2 (= 2.9.8-1),
+ linux-libc-dev (= 4.18.20-2),
+ login (= 1:4.5-1.1),
+ m4 (= 1.4.18-2),
+ make (= 4.2.1-1.2),
+ man-db (= 2.8.4-3),
+ mawk (= 1.3.3-17),
+ ncurses-base (= 6.1+20181013-1),
+ ncurses-bin (= 6.1+20181013-1),
+ patch (= 2.7.6-3),
+ perl (= 5.28.1-1),
+ perl-base (= 5.28.1-1),
+ perl-modules-5.28 (= 5.28.1-1),
+ pkg-config (= 0.29-4),
+ po-debconf (= 1.0.21),
+ readline-common (= 7.0-5),
+ sed (= 4.5-2),
+ sensible-utils (= 0.0.12),
+ sysvinit-utils (= 2.92~beta-2),
+ tar (= 1.30+dfsg-3),
+ util-linux (= 2.32.1-0.1),
+ xz-utils (= 5.2.4-1),
+ zlib1g (= 1:1.2.11.dfsg-1)
+Environment:
+ AR="xiar"
+ CC="ccache icc"
+ CPP="ccache icc -E"
+ CXX="ccache icpc"
+ DEB_BUILD_OPTIONS="nocheck nodoc parallel=8"
+ DEB_BUILD_PROFILES="nobiarch nocheck nodoc"
+ DEB_CFLAGS_SET="-g -O2 -fdebug-prefix-map=/dev/shm/test/ncurses=. -Wformat -march=native -pipe -fstack-security-check -Wformat-security"
+ DEB_CXXFLAGS_SET="-g -O2 -fdebug-prefix-map=/dev/shm/test/ncurses=. -Wformat -march=native -pipe -fstack-security-check -Wformat-security"
+ DEB_FCFLAGS_SET="-g -O2 -fdebug-prefix-map=/dev/shm/test/ncurses=. -fstack-protector-strong -march=native -pipe -fstack-security-check"
+ DEB_FFLAGS_SET="-g -O2 -fdebug-prefix-map=/dev/shm/test/ncurses=. -fstack-protector-strong -march=native -pipe -fstack-security-check"
+ DEB_LDFLAGS_SET="-Wl,-z,relro -Wl,--as-needed,--gc-sections,--relax"
+ DPKG_GENSYMBOLS_CHECK_LEVEL="1"
+ LANG="en_US.UTF-8"
+ LC_CTYPE="en_US.UTF-8"
+ LD="xild"
+ LD_LIBRARY_PATH="/opt/intel/lib/intel64_lin:/opt/intel/tbb/lib/intel64/gcc4.7"
+ SOURCE_DATE_EPOCH="1539884743"
